@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "ths:socks_color_white_leggings"
+    },
+    "1": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "ths:socks_color_1_leggings",
+    "count": 1
+  }
+}

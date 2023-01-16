@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Socks",
+    "icon": {
+      "value": "CUSTOM:SocksColor0.legs"
+    },
+    "showSearch": false
+  }
+}
