@@ -45,7 +45,7 @@ public abstract class SocksColor1Item extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "socks_color_1";
+				return "socks_color_mw";
 			}
 
 			@Override

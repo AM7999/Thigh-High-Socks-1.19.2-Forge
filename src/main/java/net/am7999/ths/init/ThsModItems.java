@@ -21,7 +21,7 @@ public class ThsModItems {
 	public static final RegistryObject<Item> SOCKS_COLOR_WHITE_LEGGINGS = REGISTRY.register("socks_color_white_leggings",
 			() -> new SocksColor0Item.Leggings());
 	public static final RegistryObject<Item> COTTON = REGISTRY.register("cotton", () -> new CottonItem());
-	public static final RegistryObject<Item> SOCKS_COLOR_1_LEGGINGS = REGISTRY.register("socks_color_1_leggings",
+	public static final RegistryObject<Item> SOCKS_COLOR_MW_LEGGINGS = REGISTRY.register("socks_color_mw_leggings",
 			() -> new SocksColor1Item.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_PINK_LEGGINGS = REGISTRY.register("socks_color_pink_leggings",
 			() -> new SocksColorPinkItem.Leggings());
