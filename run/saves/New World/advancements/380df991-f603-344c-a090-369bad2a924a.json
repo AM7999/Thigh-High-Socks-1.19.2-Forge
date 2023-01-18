@@ -1,9 +1,21 @@
 {
+  "ths:firstadv": {
+    "criteria": {
+      "firstadv": "2023-01-17 20:35:24 -0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_birch_forest": "2023-01-17 20:11:50 -0800"
     },
     "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-01-17 20:35:21 -0800"
+    },
+    "done": true
   },
   "DataVersion": 3120
 }
