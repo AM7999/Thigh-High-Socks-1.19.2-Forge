@@ -15,8 +15,8 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.am7999.ths.init.ThsModTabs;
 
-public abstract class SocksColor1Item extends ArmorItem {
-	public SocksColor1Item(EquipmentSlot slot, Item.Properties properties) {
+public abstract class SocksColorPinkwhiteItem extends ArmorItem {
+	public SocksColorPinkwhiteItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
@@ -25,7 +25,7 @@ public abstract class SocksColor1Item extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 2, 6, 2}[slot.getIndex()];
+				return new int[]{2, 5, 6, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -45,7 +45,7 @@ public abstract class SocksColor1Item extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "socks_color_mw";
+				return "socks_color_pinkwhite";
 			}
 
 			@Override
@@ -60,14 +60,14 @@ public abstract class SocksColor1Item extends ArmorItem {
 		}, slot, properties);
 	}
 
-	public static class Leggings extends SocksColor1Item {
+	public static class Leggings extends SocksColorPinkwhiteItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(ThsModTabs.TAB_SOCKS));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ths:textures/models/armor/sock_mw_layer_1_layer_2.png";
+			return "ths:textures/models/armor/sock_piw_layer_1_layer_2.png";
 		}
 	}
 }
