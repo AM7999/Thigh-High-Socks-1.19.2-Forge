@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.am7999.ths.item.SocksColorWPIItem;
 import net.am7999.ths.item.SocksColorRWItem;
 import net.am7999.ths.item.SocksColorPinkwhiteItem;
 import net.am7999.ths.item.SocksColorPinkItem;
@@ -31,4 +32,6 @@ public class ThsModItems {
 			() -> new SocksColorPinkwhiteItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_RW_LEGGINGS = REGISTRY.register("socks_color_rw_leggings",
 			() -> new SocksColorRWItem.Leggings());
+	public static final RegistryObject<Item> SOCKS_COLOR_WPI_LEGGINGS = REGISTRY.register("socks_color_wpi_leggings",
+			() -> new SocksColorWPIItem.Leggings());
 }
