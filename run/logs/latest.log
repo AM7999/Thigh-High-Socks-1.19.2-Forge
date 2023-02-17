@@ -1,25 +1,22 @@
-[18Jan2023 14:21:11.154] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, /home/angel/.mcreator/gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 43.1.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[18Jan2023 14:21:11.157] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Linux arch amd64 version 6.1.6-arch1-1
-[18Jan2023 14:21:11.243] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/angel/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23115!/ Service=ModLauncher Env=CLIENT
-[18Jan2023 14:21:11.276] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /home/angel/Documents/GitHub/Thigh-High-Socks-1.19.2-Forge/run/config/fml.toml is not correct. Correcting
-[18Jan2023 14:21:11.279] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[18Jan2023 14:21:11.280] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
-[18Jan2023 14:21:11.492] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.2-43.1.7/3535e9c3e5218abcecea1496a5c3a5c3207096d8/javafmllanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[18Jan2023 14:21:11.494] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.2-43.1.7/a34960c25b16742b648accc1f198dde78abb666a/lowcodelanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[18Jan2023 14:21:11.496] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.2-43.1.7/f1f25884b81fb6dc87bed375e43323e690af297c/mclanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[18Jan2023 14:21:11.497] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.2-43.1.7/d19281d83514be3dbec3d6d1f1f82a486ce85a4e/fmlcore-1.19.2-43.1.7.jar is missing mods.toml file
-[18Jan2023 14:21:11.552] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[18Jan2023 14:21:12.457] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/angel/.mcreator/gradle/caches/forge_gradle/assets, --assetIndex, 1.19]
-[18Jan2023 14:21:14.321] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[18Jan2023 14:21:15.309] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/angel/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23180!/assets/.mcassetsroot' uses unexpected schema
-[18Jan2023 14:21:15.309] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/angel/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23180!/data/.mcassetsroot' uses unexpected schema
-[18Jan2023 14:21:15.333] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Jan2023 14:21:15.336] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[18Jan2023 14:21:15.392] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[18Jan2023 14:21:15.660] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.7, for MC 1.19.2 with MCP 20220805.130853
-[18Jan2023 14:21:15.660] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.7 Initialized
-[18Jan2023 14:21:16.230] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[18Jan2023 14:21:16.313] [Render thread/WARN] [com.mojang.text2speech.NarratorLinux/]: ERROR : Couldn't load Narrator library
+[09Feb2023 20:37:12.176] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, /home/angel/.mcreator/gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 43.1.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[09Feb2023 20:37:12.181] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Linux arch amd64 version 6.1.10-arch1-1
+[09Feb2023 20:37:12.269] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/angel/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23115!/ Service=ModLauncher Env=CLIENT
+[09Feb2023 20:37:12.510] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.2-43.1.7/3535e9c3e5218abcecea1496a5c3a5c3207096d8/javafmllanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[09Feb2023 20:37:12.512] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.2-43.1.7/a34960c25b16742b648accc1f198dde78abb666a/lowcodelanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[09Feb2023 20:37:12.513] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.2-43.1.7/f1f25884b81fb6dc87bed375e43323e690af297c/mclanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[09Feb2023 20:37:12.514] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/angel/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.2-43.1.7/d19281d83514be3dbec3d6d1f1f82a486ce85a4e/fmlcore-1.19.2-43.1.7.jar is missing mods.toml file
+[09Feb2023 20:37:12.551] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[09Feb2023 20:37:13.305] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/angel/.mcreator/gradle/caches/forge_gradle/assets, --assetIndex, 1.19]
+[09Feb2023 20:37:15.204] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[09Feb2023 20:37:16.167] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/angel/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23180!/assets/.mcassetsroot' uses unexpected schema
+[09Feb2023 20:37:16.168] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/angel/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23180!/data/.mcassetsroot' uses unexpected schema
+[09Feb2023 20:37:16.187] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Feb2023 20:37:16.191] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[09Feb2023 20:37:16.399] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[09Feb2023 20:37:16.682] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.7, for MC 1.19.2 with MCP 20220805.130853
+[09Feb2023 20:37:16.682] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.7 Initialized
+[09Feb2023 20:37:17.232] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[09Feb2023 20:37:17.372] [Render thread/WARN] [com.mojang.text2speech.NarratorLinux/]: ERROR : Couldn't load Narrator library
 java.lang.UnsatisfiedLinkError: libflite.so.1: cannot open shared object file: No such file or directory
 	at com.sun.jna.Native.open(Native Method) ~[jna-platform-5.10.0.jar%23120!/:5.10.0 (b0)]
 	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:277) ~[jna-platform-5.10.0.jar%23120!/:5.10.0 (b0)]
@@ -44,352 +41,112 @@ java.lang.UnsatisfiedLinkError: libflite.so.1: cannot open shared object file: N
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23103!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23103!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[18Jan2023 14:21:16.330] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[18Jan2023 14:21:16.346] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/angel/Documents/GitHub/Thigh-High-Socks-1.19.2-Forge/run/config/forge-client.toml is not correct. Correcting
-[18Jan2023 14:21:16.347] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[18Jan2023 14:21:16.348] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
-[18Jan2023 14:21:16.348] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
-[18Jan2023 14:21:16.348] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
-[18Jan2023 14:21:16.349] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
-[18Jan2023 14:21:16.349] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
-[18Jan2023 14:21:16.352] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/angel/Documents/GitHub/Thigh-High-Socks-1.19.2-Forge/run/config/forge-common.toml is not correct. Correcting
-[18Jan2023 14:21:16.352] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[18Jan2023 14:21:16.352] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
-[18Jan2023 14:21:16.352] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
-[18Jan2023 14:21:16.352] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
-[18Jan2023 14:21:16.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Jan2023 14:21:17.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.7 Target: 43.2.0
-[18Jan2023 14:21:18.458] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[18Jan2023 14:21:18.459] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[18Jan2023 14:21:18.479] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device JACK Default
-[18Jan2023 14:21:18.480] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[18Jan2023 14:21:18.579] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[18Jan2023 14:21:18.585] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[18Jan2023 14:21:18.586] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[18Jan2023 14:21:18.586] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[18Jan2023 14:21:18.587] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[18Jan2023 14:21:18.587] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[18Jan2023 14:21:18.587] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[18Jan2023 14:21:18.977] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[18Jan2023 14:21:19.017] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[18Jan2023 14:21:19.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[18Jan2023 14:21:19.019] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[18Jan2023 14:21:19.778] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[18Jan2023 14:21:41.539] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[18Jan2023 14:21:41.808] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1180 advancements
-[18Jan2023 14:21:42.704] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[18Jan2023 14:21:42.806] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1180 advancements
-[18Jan2023 14:21:50.385] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[18Jan2023 14:21:50.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18Jan2023 14:21:50.435] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./saves/New World/serverconfig/forge-server.toml is not correct. Correcting
-[18Jan2023 14:21:50.435] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[18Jan2023 14:21:50.435] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[18Jan2023 14:21:50.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[18Jan2023 14:21:50.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[18Jan2023 14:21:50.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[18Jan2023 14:21:50.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[18Jan2023 14:21:50.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[18Jan2023 14:21:50.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[18Jan2023 14:21:58.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Jan2023 14:21:59.264] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Jan2023 14:21:59.326] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Jan2023 14:21:59.800] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18Jan2023 14:22:00.307] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[18Jan2023 14:22:00.815] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[18Jan2023 14:22:01.317] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[18Jan2023 14:22:01.800] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[18Jan2023 14:22:02.305] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[18Jan2023 14:22:02.818] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[18Jan2023 14:22:03.306] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[18Jan2023 14:22:03.815] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[18Jan2023 14:22:04.316] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[18Jan2023 14:22:04.822] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[18Jan2023 14:22:05.316] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[18Jan2023 14:22:05.818] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[18Jan2023 14:22:06.321] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[18Jan2023 14:22:06.810] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[18Jan2023 14:22:07.315] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[18Jan2023 14:22:07.818] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[18Jan2023 14:22:08.315] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[18Jan2023 14:22:08.801] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[18Jan2023 14:22:09.333] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[18Jan2023 14:22:09.807] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[18Jan2023 14:22:10.314] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
-[18Jan2023 14:22:10.809] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[18Jan2023 14:22:11.307] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[18Jan2023 14:22:12.322] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[18Jan2023 14:22:12.322] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[18Jan2023 14:22:12.817] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[18Jan2023 14:22:13.297] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[18Jan2023 14:22:13.808] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
-[18Jan2023 14:22:14.319] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
-[18Jan2023 14:22:14.320] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15526 ms
-[18Jan2023 14:22:14.320] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18Jan2023 14:22:14.378] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[18Jan2023 14:22:14.379] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[18Jan2023 14:22:14.421] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[18Jan2023 14:22:14.819] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[18Jan2023 14:22:14.839] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@842cf44
-[18Jan2023 14:22:14.850] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3099c484] logged in with entity id 184 at (-20.5, 90.0, 10.5)
-[18Jan2023 14:22:14.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[18Jan2023 14:22:15.595] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[18Jan2023 14:22:22.620] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:22:22.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:22:22.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:22:22.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:22:41.670] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:22:41.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:22:41.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:22:41.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:23:14.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Could not find a biome of type "#minecraft:plains" within reasonable distance
-[18Jan2023 14:23:19.439] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
-[18Jan2023 14:23:19.440] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] locatebiome #minecraft:plains<--[HERE]
-[18Jan2023 14:23:26.003] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Incorrect argument for command
-[18Jan2023 14:23:26.004] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] locate #minecraft:plains<--[HERE]
-[18Jan2023 14:23:38.123] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest minecraft:plains is at [-360, 96, -254] (295 blocks away)
-[18Jan2023 14:23:41.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -359.500000, 96.000000, -253.500000]
-[18Jan2023 14:23:41.800] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -359.500000, 96.000000, -253.500000
-[18Jan2023 14:23:45.470] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:23:45.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:23:45.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:23:45.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:24:16.020] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:24:16.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:24:16.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:24:16.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:24:29.570] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:24:29.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:24:29.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:24:29.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:24:49.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [What Have you Done?]
-[18Jan2023 14:24:49.857] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [What Have you Done?]
-[18Jan2023 14:24:49.882] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1 advancements
-[18Jan2023 14:24:56.520] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:24:56.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:24:56.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:24:56.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:25:15.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Who is Cutting Onions?]
-[18Jan2023 14:25:15.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [You've Got a Friend in Me]
-[18Jan2023 14:25:15.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [With Our Powers Combined!]
-[18Jan2023 14:25:15.381] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Who is Cutting Onions?]
-[18Jan2023 14:25:15.382] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [You've Got a Friend in Me]
-[18Jan2023 14:25:15.382] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [With Our Powers Combined!]
-[18Jan2023 14:25:15.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Oh Shiny]
-[18Jan2023 14:25:15.388] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Oh Shiny]
-[18Jan2023 14:25:15.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Suit Up]
-[18Jan2023 14:25:15.399] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Suit Up]
-[18Jan2023 14:25:15.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Very Very Frightening]
-[18Jan2023 14:25:15.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Hot Stuff]
-[18Jan2023 14:25:15.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Whatever Floats Your Goat!]
-[18Jan2023 14:25:15.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Free the End]
-[18Jan2023 14:25:15.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Surge Protector]
-[18Jan2023 14:25:15.407] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Very Very Frightening]
-[18Jan2023 14:25:15.408] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Hot Stuff]
-[18Jan2023 14:25:15.408] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Whatever Floats Your Goat!]
-[18Jan2023 14:25:15.408] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Free the End]
-[18Jan2023 14:25:15.409] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Surge Protector]
-[18Jan2023 14:25:15.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [A Furious Cocktail]
-[18Jan2023 14:25:15.416] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [A Furious Cocktail]
-[18Jan2023 14:25:15.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Best Friends Forever]
-[18Jan2023 14:25:15.417] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Best Friends Forever]
-[18Jan2023 14:25:15.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Glow and Behold!]
-[18Jan2023 14:25:15.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Bring Home the Beacon]
-[18Jan2023 14:25:15.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Not Today, Thank You]
-[18Jan2023 14:25:15.424] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Glow and Behold!]
-[18Jan2023 14:25:15.425] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Bring Home the Beacon]
-[18Jan2023 14:25:15.425] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Not Today, Thank You]
-[18Jan2023 14:25:15.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [When the Squad Hops into Town]
-[18Jan2023 14:25:15.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Isn't It Iron Pick]
-[18Jan2023 14:25:15.434] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [When the Squad Hops into Town]
-[18Jan2023 14:25:15.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Local Brewery]
-[18Jan2023 14:25:15.435] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Isn't It Iron Pick]
-[18Jan2023 14:25:15.436] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Local Brewery]
-[18Jan2023 14:25:15.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The Next Generation]
-[18Jan2023 14:25:15.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [It Spreads]
-[18Jan2023 14:25:15.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Fishy Business]
-[18Jan2023 14:25:15.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Hot Tourist Destinations]
-[18Jan2023 14:25:15.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The Next Generation]
-[18Jan2023 14:25:15.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [It Spreads]
-[18Jan2023 14:25:15.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Fishy Business]
-[18Jan2023 14:25:15.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Hot Tourist Destinations]
-[18Jan2023 14:25:15.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Caves & Cliffs]
-[18Jan2023 14:25:15.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [This Boat Has Legs]
-[18Jan2023 14:25:15.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Sniper Duel]
-[18Jan2023 14:25:15.452] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Caves & Cliffs]
-[18Jan2023 14:25:15.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Great View From Up Here]
-[18Jan2023 14:25:15.453] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [This Boat Has Legs]
-[18Jan2023 14:25:15.453] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Sniper Duel]
-[18Jan2023 14:25:15.453] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Great View From Up Here]
-[18Jan2023 14:25:15.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [How Did We Get Here?]
-[18Jan2023 14:25:15.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Bullseye]
-[18Jan2023 14:25:15.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Spooky Scary Skeleton]
-[18Jan2023 14:25:15.463] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [How Did We Get Here?]
-[18Jan2023 14:25:15.463] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Bullseye]
-[18Jan2023 14:25:15.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Two by Two]
-[18Jan2023 14:25:15.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Spooky Scary Skeleton]
-[18Jan2023 14:25:15.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Two by Two]
-[18Jan2023 14:25:15.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Stone Age]
-[18Jan2023 14:25:15.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Stone Age]
-[18Jan2023 14:25:15.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Two Birds, One Arrow]
-[18Jan2023 14:25:15.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [We Need to Go Deeper]
-[18Jan2023 14:25:15.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Who's the Pillager Now?]
-[18Jan2023 14:25:15.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Getting an Upgrade]
-[18Jan2023 14:25:15.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Light as a Rabbit]
-[18Jan2023 14:25:15.479] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Two Birds, One Arrow]
-[18Jan2023 14:25:15.480] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [We Need to Go Deeper]
-[18Jan2023 14:25:15.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Tactical Fishing]
-[18Jan2023 14:25:15.480] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Who's the Pillager Now?]
-[18Jan2023 14:25:15.480] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Getting an Upgrade]
-[18Jan2023 14:25:15.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Light as a Rabbit]
-[18Jan2023 14:25:15.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Tactical Fishing]
-[18Jan2023 14:25:15.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Zombie Doctor]
-[18Jan2023 14:25:15.488] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Zombie Doctor]
-[18Jan2023 14:25:15.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The City at the End of the Game]
-[18Jan2023 14:25:15.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Ice Bucket Challenge]
-[18Jan2023 14:25:15.490] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The City at the End of the Game]
-[18Jan2023 14:25:15.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Remote Getaway]
-[18Jan2023 14:25:15.490] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Ice Bucket Challenge]
-[18Jan2023 14:25:15.490] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Remote Getaway]
-[18Jan2023 14:25:15.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Into Fire]
-[18Jan2023 14:25:15.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [War Pigs]
-[18Jan2023 14:25:15.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Take Aim]
-[18Jan2023 14:25:15.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Total Beelocation]
-[18Jan2023 14:25:15.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Arbalistic]
-[18Jan2023 14:25:15.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [The End... Again...]
-[18Jan2023 14:25:15.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Acquire Hardware]
-[18Jan2023 14:25:15.500] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Into Fire]
-[18Jan2023 14:25:15.501] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [War Pigs]
-[18Jan2023 14:25:15.501] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Take Aim]
-[18Jan2023 14:25:15.501] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Total Beelocation]
-[18Jan2023 14:25:15.502] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Arbalistic]
-[18Jan2023 14:25:15.502] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [The End... Again...]
-[18Jan2023 14:25:15.502] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Acquire Hardware]
-[18Jan2023 14:25:15.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Not Quite "Nine" Lives]
-[18Jan2023 14:25:15.503] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Not Quite "Nine" Lives]
-[18Jan2023 14:25:15.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Cover Me with Diamonds]
-[18Jan2023 14:25:15.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Sky's the Limit]
-[18Jan2023 14:25:15.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Bukkit Bukkit]
-[18Jan2023 14:25:15.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wax Off]
-[18Jan2023 14:25:15.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Cover Me with Diamonds]
-[18Jan2023 14:25:15.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Sky's the Limit]
-[18Jan2023 14:25:15.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Bukkit Bukkit]
-[18Jan2023 14:25:15.512] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Wax Off]
-[18Jan2023 14:25:15.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Hired Help]
-[18Jan2023 14:25:15.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sneak 100]
-[18Jan2023 14:25:15.519] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Hired Help]
-[18Jan2023 14:25:15.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Return to Sender]
-[18Jan2023 14:25:15.519] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sneak 100]
-[18Jan2023 14:25:15.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sweet Dreams]
-[18Jan2023 14:25:15.520] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Return to Sender]
-[18Jan2023 14:25:15.521] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sweet Dreams]
-[18Jan2023 14:25:15.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [You Need a Mint]
-[18Jan2023 14:25:15.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Monsters Hunted]
-[18Jan2023 14:25:15.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Enchanter]
-[18Jan2023 14:25:15.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Voluntary Exile]
-[18Jan2023 14:25:15.529] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [You Need a Mint]
-[18Jan2023 14:25:15.530] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Monsters Hunted]
-[18Jan2023 14:25:15.530] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Enchanter]
-[18Jan2023 14:25:15.530] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Voluntary Exile]
-[18Jan2023 14:25:15.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Eye Spy]
-[18Jan2023 14:25:15.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Is It a Bird?]
-[18Jan2023 14:25:15.538] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Eye Spy]
-[18Jan2023 14:25:15.540] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Is It a Bird?]
-[18Jan2023 14:25:15.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Serious Dedication]
-[18Jan2023 14:25:15.541] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Serious Dedication]
-[18Jan2023 14:25:15.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Postmortal]
-[18Jan2023 14:25:15.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Monster Hunter]
-[18Jan2023 14:25:15.548] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Postmortal]
-[18Jan2023 14:25:15.549] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Monster Hunter]
-[18Jan2023 14:25:15.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Adventuring Time]
-[18Jan2023 14:25:15.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [A Seedy Place]
-[18Jan2023 14:25:15.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Those Were the Days]
-[18Jan2023 14:25:15.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Cutest Predator]
-[18Jan2023 14:25:15.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Birthday Song]
-[18Jan2023 14:25:15.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Is It a Plane?]
-[18Jan2023 14:25:15.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Feels Like Home]
-[18Jan2023 14:25:15.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Star Trader]
-[18Jan2023 14:25:15.556] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Adventuring Time]
-[18Jan2023 14:25:15.557] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [A Seedy Place]
-[18Jan2023 14:25:15.557] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Those Were the Days]
-[18Jan2023 14:25:15.557] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Cutest Predator]
-[18Jan2023 14:25:15.558] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Birthday Song]
-[18Jan2023 14:25:15.558] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Is It a Plane?]
-[18Jan2023 14:25:15.558] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Feels Like Home]
-[18Jan2023 14:25:15.558] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Star Trader]
-[18Jan2023 14:25:15.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wax On]
-[18Jan2023 14:25:15.559] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Wax On]
-[18Jan2023 14:25:15.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sound of Music]
-[18Jan2023 14:25:15.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Hero of the Village]
-[18Jan2023 14:25:15.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Hidden in the Depths]
-[18Jan2023 14:25:15.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Beaconator]
-[18Jan2023 14:25:15.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Withering Heights]
-[18Jan2023 14:25:15.569] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sound of Music]
-[18Jan2023 14:25:15.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [A Balanced Diet]
-[18Jan2023 14:25:15.570] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Hero of the Village]
-[18Jan2023 14:25:15.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Subspace Bubble]
-[18Jan2023 14:25:15.571] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Hidden in the Depths]
-[18Jan2023 14:25:15.571] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Beaconator]
-[18Jan2023 14:25:15.572] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Withering Heights]
-[18Jan2023 14:25:15.572] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [A Balanced Diet]
-[18Jan2023 14:25:15.572] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Subspace Bubble]
-[18Jan2023 14:25:15.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Country Lode, Take Me Home]
-[18Jan2023 14:25:15.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Bee Our Guest]
-[18Jan2023 14:25:15.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [What a Deal!]
-[18Jan2023 14:25:15.582] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Country Lode, Take Me Home]
-[18Jan2023 14:25:15.582] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Bee Our Guest]
-[18Jan2023 14:25:15.582] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [What a Deal!]
-[18Jan2023 14:25:15.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Is It a Balloon?]
-[18Jan2023 14:25:15.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Uneasy Alliance]
-[18Jan2023 14:25:15.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Diamonds!]
-[18Jan2023 14:25:15.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Healing Power of Friendship!]
-[18Jan2023 14:25:15.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Is It a Balloon?]
-[18Jan2023 14:25:15.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Uneasy Alliance]
-[18Jan2023 14:25:15.589] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Diamonds!]
-[18Jan2023 14:25:15.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [A Terrible Fortress]
-[18Jan2023 14:25:15.590] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Healing Power of Friendship!]
-[18Jan2023 14:25:15.591] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [A Terrible Fortress]
-[18Jan2023 14:25:15.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [A Throwaway Joke]
-[18Jan2023 14:25:15.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Sticky Situation]
-[18Jan2023 14:25:15.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Ol' Betsy]
-[18Jan2023 14:25:15.601] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [A Throwaway Joke]
-[18Jan2023 14:25:15.604] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Sticky Situation]
-[18Jan2023 14:25:15.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Cover Me in Debris]
-[18Jan2023 14:25:15.604] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Ol' Betsy]
-[18Jan2023 14:25:15.605] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Cover Me in Debris]
-[18Jan2023 14:25:15.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The End?]
-[18Jan2023 14:25:15.606] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The End?]
-[18Jan2023 14:25:15.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [The Parrots and the Bats]
-[18Jan2023 14:25:15.606] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [The Parrots and the Bats]
-[18Jan2023 14:25:15.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [A Complete Catalogue]
-[18Jan2023 14:25:15.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Granted 1180 advancements to Dev]
-[18Jan2023 14:25:15.615] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [A Complete Catalogue]
-[18Jan2023 14:25:15.616] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Granted 1180 advancements to Dev
-[18Jan2023 14:25:15.634] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1180 advancements
-[18Jan2023 14:30:14.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[18Jan2023 14:30:14.814] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[18Jan2023 14:30:15.370] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:30:15.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:30:15.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:30:15.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:30:49.670] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:30:49.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:30:49.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:30:49.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:32:32.870] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[18Jan2023 14:32:32.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:32:32.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:32:32.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:32:33.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[18Jan2023 14:32:33.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[18Jan2023 14:32:33.741] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[18Jan2023 14:32:33.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18Jan2023 14:32:33.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18Jan2023 14:32:33.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18Jan2023 14:32:35.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[18Jan2023 14:32:35.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[18Jan2023 14:32:35.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[18Jan2023 14:32:35.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[18Jan2023 14:32:35.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18Jan2023 14:32:35.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18Jan2023 14:32:35.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18Jan2023 14:32:36.795] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[09Feb2023 20:37:17.381] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[09Feb2023 20:37:17.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Feb2023 20:37:18.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.7 Target: 43.2.0
+[09Feb2023 20:37:19.550] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[09Feb2023 20:37:19.551] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[09Feb2023 20:37:19.568] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device HyperX 7.1 Audio Analog Stereo
+[09Feb2023 20:37:19.568] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[09Feb2023 20:37:19.664] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[09Feb2023 20:37:19.669] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[09Feb2023 20:37:19.670] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[09Feb2023 20:37:19.670] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[09Feb2023 20:37:19.671] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[09Feb2023 20:37:19.671] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[09Feb2023 20:37:19.671] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09Feb2023 20:37:20.187] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[09Feb2023 20:37:20.294] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[09Feb2023 20:37:20.294] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09Feb2023 20:37:20.294] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09Feb2023 20:37:21.043] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[09Feb2023 20:37:58.223] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[09Feb2023 20:37:58.439] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1181 advancements
+[09Feb2023 20:37:58.718] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[09Feb2023 20:37:58.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Feb2023 20:37:58.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Feb2023 20:38:01.240] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Feb2023 20:38:01.266] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Feb2023 20:38:01.266] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Feb2023 20:38:01.266] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Feb2023 20:38:01.292] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Feb2023 20:38:01.454] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Feb2023 20:38:01.929] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Feb2023 20:38:01.947] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[09Feb2023 20:38:01.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3009 ms
+[09Feb2023 20:38:01.987] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[09Feb2023 20:38:01.989] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[09Feb2023 20:38:02.052] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[09Feb2023 20:38:02.353] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[09Feb2023 20:38:02.375] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4251301
+[09Feb2023 20:38:02.386] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:06576053] logged in with entity id 165 at (-406.0243406176475, 65.0, -482.4166802930948)
+[09Feb2023 20:38:02.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[09Feb2023 20:38:03.245] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[09Feb2023 20:38:05.129] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:38:05.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:38:05.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:38:05.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:38:14.629] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:38:14.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:38:14.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:38:14.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:38:47.733] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 10 advancements
+[09Feb2023 20:38:53.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[09Feb2023 20:38:53.580] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[09Feb2023 20:38:56.579] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:38:56.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:38:56.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:38:56.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:39:31.579] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:39:31.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:39:31.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:39:31.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:40:12.579] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:40:12.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:40:12.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:40:12.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:40:40.129] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:40:40.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:40:40.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:40:40.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:41:48.979] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:41:48.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:41:48.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:41:48.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:42:07.429] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:42:07.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:42:07.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:42:07.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:42:17.479] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:42:17.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:42:17.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:42:17.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:42:45.721] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
+[09Feb2023 20:42:47.914] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
+[09Feb2023 20:42:50.329] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:42:50.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:42:50.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:42:50.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:43:26.129] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:43:26.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:43:26.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:43:26.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:43:52.052] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
+[09Feb2023 20:43:58.279] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Feb2023 20:43:58.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:43:58.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:43:58.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:51:27.841] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[09Feb2023 20:51:27.885] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[09Feb2023 20:51:27.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[09Feb2023 20:51:27.888] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[09Feb2023 20:51:27.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Feb2023 20:51:27.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Feb2023 20:51:27.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Feb2023 20:51:28.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09Feb2023 20:51:28.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09Feb2023 20:51:28.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09Feb2023 20:51:28.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[09Feb2023 20:51:28.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Feb2023 20:51:28.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Feb2023 20:51:28.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
