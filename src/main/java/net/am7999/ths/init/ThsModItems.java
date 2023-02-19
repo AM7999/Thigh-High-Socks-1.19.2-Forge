@@ -33,5 +33,5 @@ public class ThsModItems {
 	public static final RegistryObject<Item> SOCKS_COLOR_WPI_LEGGINGS = REGISTRY.register("socks_color_wpi_leggings",
 			() -> new SocksColorWPIItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_GREEN_LEGGINGS = REGISTRY.register("socks_color_green",
-			() -> new SocksColorGreen.Leggings());
+			() -> new SocksColorGreenItem.Leggings());
 }

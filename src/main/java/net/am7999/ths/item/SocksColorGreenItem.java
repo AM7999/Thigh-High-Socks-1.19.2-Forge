@@ -40,7 +40,7 @@ public abstract class SocksColorGreenItem extends ArmorItem {
 
             @Override
             public Ingredient getRepairIngredient() {
-                return Ingredient.EMPTY
+                return Ingredient.EMPTY;
             }
 
             @Override
