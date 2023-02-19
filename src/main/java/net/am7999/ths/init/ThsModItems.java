@@ -14,6 +14,7 @@ import net.am7999.ths.item.SocksColorPinkItem;
 import net.am7999.ths.item.SocksColor1Item;
 import net.am7999.ths.item.SocksColor0Item;
 import net.am7999.ths.item.CottonItem;
+import net.am7999.ths.item.SocksColorGreenItem;
 import net.am7999.ths.ThsMod;
 
 public class ThsModItems {
@@ -31,4 +32,6 @@ public class ThsModItems {
 			() -> new SocksColorRWItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_WPI_LEGGINGS = REGISTRY.register("socks_color_wpi_leggings",
 			() -> new SocksColorWPIItem.Leggings());
+	public static final RegistryObject<Item> SOCKS_COLOR_GREEN_LEGGINGS = REGISTRY.register("socks_color_green",
+			() -> new SocksColorGreen.Leggings());
 }
