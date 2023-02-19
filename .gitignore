@@ -1,1 +1,4 @@
 run/*
+build/*
+.gradle/*
+.gradle/7.5/*
