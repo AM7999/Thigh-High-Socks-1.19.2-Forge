@@ -15,12 +15,12 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.am7999.ths.init.ThsModTabs;
 
-public abstract class SocksColorGreenItem extends ArmorItem {
-    public SocksColorGreenItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class SocksColorLimeItem extends ArmorItem {
+    public SocksColorLimeItem(EquipmentSlot slot, Item.Properties properties) {
         super (new ArmorMaterial() {
             @Override
             public int getDurabilityForSlot(EquipmentSlot slot) {
-                return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+                return new int[]{12, 15, 16, 11}[slot.getIndex()] * 15;
             }
 
             @Override
@@ -44,7 +44,7 @@ public abstract class SocksColorGreenItem extends ArmorItem {
             }
 
             @Override
-            public String getName(){
+            public String getName() {
                 return "socks_color_green";
             }
 
@@ -58,16 +58,16 @@ public abstract class SocksColorGreenItem extends ArmorItem {
                 return 0f;
             }
         }, slot, properties);
-    } 
+    }
 
-    public static class Leggings extends SocksColorGreenItem {
+    public static class Leggings extends SocksColorLimeItem {
         public Leggings() {
             super(EquipmentSlot.LEGS, new Item.Properties().tab(ThsModTabs.TAB_SOCKS));
         }
 
         @Override
         public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-            return "ths:textures/models/armor/sock_green_layer1_layer_2.png";
+            return "ths:textures/models/armor/sock_lime_layer1_layer_2.png";
         }
     }
 }
