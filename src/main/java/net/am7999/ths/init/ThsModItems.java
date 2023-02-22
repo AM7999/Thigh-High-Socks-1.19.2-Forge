@@ -20,21 +20,21 @@ import net.am7999.ths.ThsMod;
 
 public class ThsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ThsMod.MODID);
-	public static final RegistryObject<Item> SOCKS_COLOR_WHITE_LEGGINGS = REGISTRY.register("socks_color_white",
+	public static final RegistryObject<Item> SOCKS_COLOR_WHITE = REGISTRY.register("socks_color_white",
 			() -> new SocksColor0Item.Leggings());
 	public static final RegistryObject<Item> COTTON = REGISTRY.register("cotton", () -> new CottonItem());
-	public static final RegistryObject<Item> SOCKS_COLOR_MW_LEGGINGS = REGISTRY.register("socks_color_mw",
+	public static final RegistryObject<Item> SOCKS_COLOR_MW = REGISTRY.register("socks_color_mw",
 			() -> new SocksColor1Item.Leggings());
-	public static final RegistryObject<Item> SOCKS_COLOR_PINK_LEGGINGS = REGISTRY.register("socks_color_pink",
+	public static final RegistryObject<Item> SOCKS_COLOR_PINK = REGISTRY.register("socks_color_pink",
 			() -> new SocksColorPinkItem.Leggings());
-	public static final RegistryObject<Item> SOCKS_COLOR_PINKWHITE_LEGGINGS = REGISTRY.register("socks_color_pinkwhite",
+	public static final RegistryObject<Item> SOCKS_COLOR_PINKWHITE = REGISTRY.register("socks_color_pinkwhite",
 			() -> new SocksColorPinkwhiteItem.Leggings());
-	public static final RegistryObject<Item> SOCKS_COLOR_RW_LEGGINGS = REGISTRY.register("socks_color_rw",
+	public static final RegistryObject<Item> SOCKS_COLOR_RW = REGISTRY.register("socks_color_rw",
 			() -> new SocksColorRWItem.Leggings());
-	public static final RegistryObject<Item> SOCKS_COLOR_WPI_LEGGINGS = REGISTRY.register("socks_color_wpi",
+	public static final RegistryObject<Item> SOCKS_COLOR_WPI = REGISTRY.register("socks_color_wpi",
 			() -> new SocksColorWPIItem.Leggings());
-	public static final RegistryObject<Item> SOCKS_COLOR_GREEN_LEGGINGS = REGISTRY.register("socks_color_green",
+	public static final RegistryObject<Item> SOCKS_COLOR_GREEN = REGISTRY.register("socks_color_green",
 			() -> new SocksColorGreenItem.Leggings());
-	public static final RegistryObject<Item> SOCKS_COLOR_LIME_LEGGINGS = REGISTRY.register("socks_color_lime",
+	public static final RegistryObject<Item> SOCKS_COLOR_LIME = REGISTRY.register("socks_color_lime",
 	        () -> new SocksColorLimeItem.Leggings());
 }
