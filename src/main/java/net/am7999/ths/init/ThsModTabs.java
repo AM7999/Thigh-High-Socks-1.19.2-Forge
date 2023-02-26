@@ -11,7 +11,7 @@ public class ThsModTabs {
 		TAB_SOCKS = new CreativeModeTab("tabsocks") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ThsModItems.SOCKS_COLOR_WHITE_LEGGINGS.get());
+				return new ItemStack(ThsModItems.SOCKS_COLOR_WHITE.get());
 			}
 
 			@Override
