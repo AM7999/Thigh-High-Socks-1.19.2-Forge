@@ -9,6 +9,7 @@ displayName="Thigh High Socks"
 credits="Angel Martin, and partialy MCreator"
 displayURL="https://mcreator.net"
 authors="Angel, MCreator"
+description="A Mod for Minecraft that adds Thigh High Socks"
 
 [[dependencies.ths]]
     modId="minecraft"
