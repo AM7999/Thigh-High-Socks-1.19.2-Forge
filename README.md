@@ -5,7 +5,7 @@ This mod took an embarasingly long time to make (and as of writing this on 1/17/
 # Compiling
 
 1. Clone this repository
-2. Install Java 11. Installing Gralde is optional
+2. Install Java 11. Installing Gradle is optional
 3. Run Gradle or the `gradlew` script
 
 On Windows
