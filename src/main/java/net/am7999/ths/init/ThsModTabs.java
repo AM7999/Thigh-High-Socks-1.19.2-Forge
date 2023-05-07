@@ -1,4 +1,7 @@
 
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
 package net.am7999.ths.init;
 
 import net.minecraft.world.item.ItemStack;
@@ -11,7 +14,7 @@ public class ThsModTabs {
 		TAB_SOCKS = new CreativeModeTab("tabsocks") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ThsModItems.SOCKS_COLOR_WHITE.get());
+				return new ItemStack(ThsModItems.SOCKS_COLOR_WHITE_LEGGINGS.get());
 			}
 
 			@Override

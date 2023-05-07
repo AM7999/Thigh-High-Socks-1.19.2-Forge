@@ -6,7 +6,10 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "socks"
+      "registry_name": "socks",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Cotton",
@@ -14,7 +17,13 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cotton"
+      "registry_name": "cotton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/am7999/ths/item/CottonItem.java",
+          "src/main/resources/assets/ths/models/item/cotton.json"
+        ]
+      }
     },
     {
       "name": "SocksColor0",
@@ -27,7 +36,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/am7999/ths/item/SocksColor0Item.java",
+          "src/main/resources/assets/ths/models/item/socks_color_white_leggings.json"
+        ]
       }
     },
     {
@@ -36,7 +49,12 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "socks_cr"
+      "registry_name": "socks_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ths/recipes/socks_cr.json"
+        ]
+      }
     },
     {
       "name": "SocksColor1",
@@ -49,7 +67,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/am7999/ths/item/SocksColor1Item.java",
+          "src/main/resources/assets/ths/models/item/socks_color_mw_leggings.json"
+        ]
       }
     },
     {
@@ -58,7 +80,12 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "socks_c_1_cr"
+      "registry_name": "socks_c_1_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ths/recipes/socks_c_1_cr.json"
+        ]
+      }
     },
     {
       "name": "CottonCR",
@@ -66,7 +93,12 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cotton_cr"
+      "registry_name": "cotton_cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ths/recipes/cotton_cr.json"
+        ]
+      }
     },
     {
       "name": "SocksColorPink",
@@ -79,7 +111,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/ths/models/item/socks_color_pink_leggings.json",
+          "src/main/java/net/am7999/ths/item/SocksColorPinkItem.java"
+        ]
       }
     },
     {
@@ -93,7 +129,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/am7999/ths/item/SocksColorPinkwhiteItem.java",
+          "src/main/resources/assets/ths/models/item/socks_color_pinkwhite_leggings.json"
+        ]
       }
     },
     {
@@ -102,7 +142,12 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "firstadv"
+      "registry_name": "firstadv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ths/advancements/firstadv.json"
+        ]
+      }
     },
     {
       "name": "SocksColorRW",
@@ -115,7 +160,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/java/net/am7999/ths/item/SocksColorRWItem.java",
+          "src/main/resources/assets/ths/models/item/socks_color_rw_leggings.json"
+        ]
       }
     },
     {
@@ -124,7 +173,12 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "socks_rwcr"
+      "registry_name": "socks_rwcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ths/recipes/socks_rwcr.json"
+        ]
+      }
     },
     {
       "name": "SocksColorWPI",
@@ -137,7 +191,11 @@
         "eh": false,
         "el": true,
         "eb": false,
-        "ec": false
+        "ec": false,
+        "files": [
+          "src/main/resources/assets/ths/models/item/socks_color_wpi_leggings.json",
+          "src/main/java/net/am7999/ths/item/SocksColorWPIItem.java"
+        ]
       }
     },
     {
@@ -146,7 +204,12 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "socks_color_wpicr"
+      "registry_name": "socks_color_wpicr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ths/recipes/socks_color_wpicr.json"
+        ]
+      }
     },
     {
       "name": "SeccondAdv",
@@ -154,7 +217,12 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "seccond_adv"
+      "registry_name": "seccond_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ths/advancements/seccond_adv.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -215,5 +283,5 @@
     "modElementsPackage": "net.am7999.ths",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300110610
 }

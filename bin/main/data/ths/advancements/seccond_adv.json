@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ths:socks_color_wpi_leggings"
+    },
+    "title": {
+      "translate": "advancements.seccond_adv.title"
+    },
+    "description": {
+      "translate": "advancements.seccond_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "seccond_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ths:socks_color_wpi_leggings"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ths:firstadv"
+}
