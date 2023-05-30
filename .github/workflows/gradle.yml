@@ -13,8 +13,8 @@ jobs:
     - name: Compile
       uses: Ruochenfu2011/compilation@v1
       
-    - name: Archive Artifacts
+    - name: Archive Thigh-High-Socks_1.19.2-Forge
       uses: actions/upload-artifact@v2
       with:
-        name: Artifacts
+        name: Thigh-High-Socks_1.19.2-Forge
         path: ./build/libs
