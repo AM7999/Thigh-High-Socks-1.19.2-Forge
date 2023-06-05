@@ -1,8 +1,7 @@
 # Thigh High Socks Mod For 1.19.2
 A Joke mod for Minecraft Java partially made using MCreator
 This mod took an embarasingly long time to make
-
-# Credit to SquidDogTheLatexBoi#7345 for the textures
+<br> Thanks to SquidDogTheLatexBoi#7345 for the textures
 
 # Compiling
 
