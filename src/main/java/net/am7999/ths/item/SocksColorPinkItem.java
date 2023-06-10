@@ -67,7 +67,7 @@ public abstract class SocksColorPinkItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ths:textures/models/armor/sock_pi_layer_1_layer_2.png";
+			return "ths:textures/models/armor/sock_pi_layer_2.png";
 		}
 	}
 }
