@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "0",
+        "1"
+    ],
+    "key": {
+        "0": {
+            "item": "ths:socks_color_white"
+        },
+        "1": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "result": {
+        "item": "ths:socks_color_lime",
+        "count": 1
+    }
+}

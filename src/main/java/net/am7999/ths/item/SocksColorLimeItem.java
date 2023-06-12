@@ -60,7 +60,7 @@ public abstract class SocksColorLimeItem extends ArmorItem {
     }
     public static class Leggings extends SocksColorLimeItem {
         public Leggings() {
-            super(EquipmentSlot.LEGS, new Item.Properties().tab(ThsModTabs.TAB_SOCKS));
+            super(EquipmentSlot.FEET, new Item.Properties().tab(ThsModTabs.TAB_SOCKS));
         }
 
         @Override
