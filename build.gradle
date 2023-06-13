@@ -10,9 +10,9 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '1.0'
-group = 'com.yourname.modid'
-archivesBaseName = 'modid'
+version = '0.1.0'
+group = 'net.AM7999.ths'
+archivesBaseName = 'Thigh-High-Socks-Forge_1.19.2'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
