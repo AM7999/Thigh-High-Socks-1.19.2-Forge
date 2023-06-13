@@ -6,9 +6,9 @@ license="Academic Free License v3.0"
 modId="ths"
 version="1.0.0"
 displayName="Thigh High Socks"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Thanks to SquidDogTheLatexBoi#7345 for helping with the textures"
 displayURL="https://mcreator.net"
-authors="angel, MCreator"
+authors="AM7999#8935, SquidDogTheLatexBoi#7345"
 
 [[dependencies.ths]]
     modId="minecraft"

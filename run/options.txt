@@ -32,8 +32,8 @@ entityDistanceScaling:1.0
 guiScale:2
 particles:0
 maxFps:120
-graphicsMode:0
-ao:0
+graphicsMode:1
+ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
@@ -67,7 +67,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false

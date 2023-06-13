@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ths:items/sock_pink_item"
+    "layer0": "ths:item/sock_pink_item"
   }
 }

@@ -11,9 +11,15 @@
     },
     "done": true
   },
-  "ths:seccond_adv": {
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "seccond_adv": "2023-01-24 16:23:59 -0800"
+      "has_orange_dye": "2023-06-12 17:46:53 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2023-06-12 17:46:53 -0700"
     },
     "done": true
   },
@@ -35,15 +41,15 @@
     },
     "done": true
   },
-  "ths:firstadv": {
-    "criteria": {
-      "firstadv": "2023-01-24 16:23:56 -0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2023-02-09 20:38:47 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
+    "criteria": {
+      "has_orange_dye": "2023-06-12 17:46:53 -0700"
     },
     "done": true
   },
