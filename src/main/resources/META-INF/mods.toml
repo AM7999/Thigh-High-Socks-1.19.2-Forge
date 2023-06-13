@@ -4,11 +4,12 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="ths"
-version="1.0.0"
+version="0.1.0"
 displayName="Thigh High Socks"
 credits="Thanks to SquidDogTheLatexBoi#7345 for helping with the textures"
 displayURL="https://mcreator.net"
 authors="AM7999#8935, SquidDogTheLatexBoi#7345"
+description="A Mod for Minecraft that adds Thigh High Socks"
 
 [[dependencies.ths]]
     modId="minecraft"
