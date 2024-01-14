@@ -1,5 +1,5 @@
-run/*
+run/saves/New World/*
 build/*
 .gradle/*
 .gradle/7.5/*
-.*
+.idea/*
