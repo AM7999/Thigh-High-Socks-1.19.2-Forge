@@ -1,5 +1,5 @@
 
-package net.am7999.ths.item;
+package net.am7999.ths.item.socks;
 
 import net.minecraftforge.registries.ForgeRegistries;
 

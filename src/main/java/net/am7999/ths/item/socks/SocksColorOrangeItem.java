@@ -1,5 +1,5 @@
 
-package net.am7999.ths.item;
+package net.am7999.ths.item.socks;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -14,8 +14,8 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.am7999.ths.init.ThsModTabs;
 
-public abstract class SocksColorLimeItem extends ArmorItem {
-    public SocksColorLimeItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class SocksColorOrangeItem extends ArmorItem {
+    public SocksColorOrangeItem(EquipmentSlot slot, Item.Properties properties) {
         super(new ArmorMaterial() {
             @Override
             public int getDurabilityForSlot(EquipmentSlot slot) {
@@ -44,7 +44,7 @@ public abstract class SocksColorLimeItem extends ArmorItem {
 
             @Override
             public String getName() {
-                return "socks_color_lime";
+                return "socks_color_orange";
             }
 
             @Override
@@ -65,7 +65,7 @@ public abstract class SocksColorLimeItem extends ArmorItem {
 
         @Override
         public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-            return "ths:textures/models/armor/sock_lime_layer_2.png";
+            return "ths:textures/models/armor/sock_orange_layer_2.png";
         }
     }
 }
