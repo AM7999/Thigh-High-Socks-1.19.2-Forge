@@ -1,22 +1,21 @@
 
 package net.am7999.ths.item.socks;
 
+import net.am7999.ths.init.ThsModTabs;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.am7999.ths.init.ThsModTabs;
 
-
-public abstract class SocksColorBrownItem extends ArmorItem {
-    public SocksColorBrownItem(EquipmentSlot slot, Item.Properties properties) {
+public class SocksColorMagentaItem extends ArmorItem {
+    public SocksColorMagentaItem(EquipmentSlot slot, Item.Properties properties) {
         super(new ArmorMaterial() {
             @Override
             public int getDurabilityForSlot(EquipmentSlot slot) {
@@ -35,7 +34,7 @@ public abstract class SocksColorBrownItem extends ArmorItem {
 
             @Override
             public SoundEvent getEquipSound() {
-                return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.powder_snow.place"));
+                return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.fabric.place"));
             }
 
             @Override
@@ -45,7 +44,7 @@ public abstract class SocksColorBrownItem extends ArmorItem {
 
             @Override
             public String getName() {
-                return "socks_color_brown";
+                return "socks_color_magenta";
             }
 
             @Override
@@ -59,14 +58,14 @@ public abstract class SocksColorBrownItem extends ArmorItem {
             }
         }, slot, properties);
     }
-    public static class Leggings extends SocksColorBrownItem {
+    public static class Leggings extends SocksColorMagentaItem {
         public Leggings() {
             super(EquipmentSlot.FEET, new Item.Properties().tab(ThsModTabs.TAB_SOCKS));
         }
 
         @Override
         public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-            return "ths:textures/models/armor/sock_brown_layer_2.png";
+            return "ths:textures/models/armor/sock_magenta_layer_2.png";
         }
     }
 }

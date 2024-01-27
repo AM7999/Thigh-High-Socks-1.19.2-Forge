@@ -21,7 +21,9 @@ public class ThsModItems {
 	public static final RegistryObject<Item> SOCKS_COLOR_BROWN = REGISTRY.register("socks_color_brown", () -> new SocksColorBrownItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_CYAN = REGISTRY.register("socks_color_cyan", () -> new SocksColorCyanItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_GREEN = REGISTRY.register("socks_color_green", () -> new SocksColorGreenItem.Leggings());
+	public static final RegistryObject<Item> SOCKS_COLOR_GREEN_WHITE = REGISTRY.register("socks_color_green_white", () -> new SocksColorGreenOWhiteItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_LIME = REGISTRY.register("socks_color_lime", () -> new SocksColorLimeItem.Leggings());
+	public static final RegistryObject<Item> SOCKS_COLOR_MAGENTA = REGISTRY.register("socks_color_magenta", () -> new SocksColorMagentaItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_ORANGE = REGISTRY.register("socks_color_orange", () -> new SocksColorOrangeItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_PINK = REGISTRY.register("socks_color_pink", () -> new SocksColorPinkItem.Leggings());
 	public static final RegistryObject<Item> SOCKS_COLOR_WHITE = REGISTRY.register("socks_color_white", () -> new SocksColorWhiteItem.Leggings());

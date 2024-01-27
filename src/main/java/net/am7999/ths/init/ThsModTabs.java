@@ -1,7 +1,4 @@
 
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
 package net.am7999.ths.init;
 
 import net.minecraft.world.item.ItemStack;
@@ -19,7 +16,7 @@ public class ThsModTabs {
 
 			@Override
 			public boolean hasSearchBar() {
-				return false;
+				return true;
 			}
 		};
 	}

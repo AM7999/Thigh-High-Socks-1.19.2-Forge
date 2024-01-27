@@ -1,6 +1,7 @@
 
 package net.am7999.ths;
 
+import net.am7999.ths.init.PrideSocksTab;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -37,6 +38,7 @@ public class ThsMod {
 	public ThsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		ThsModTabs.load();
+		PrideSocksTab.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ThsModItems.REGISTRY.register(bus);
