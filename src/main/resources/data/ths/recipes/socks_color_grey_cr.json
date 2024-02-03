@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "3"
+  ],
+  "key": {
+    "0": {
+      "item": "ths:socks_color_white"
+    },
+    "3": {
+      "item": "minecraft:grey_dye"
+    }
+  },
+  "result": {
+    "item": "ths:socks_color_grey"
+  }
+}
