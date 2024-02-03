@@ -1,5 +1,5 @@
 
-package net.am7999.ths.item.socks;
+package net.am7999.ths.item.socks.normal;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -15,17 +15,17 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.am7999.ths.init.ThsModTabs;
 
-public abstract class SocksColorPinkItem extends ArmorItem {
-	public SocksColorPinkItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class SocksColorWhiteItem extends ArmorItem {
+	public SocksColorWhiteItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{2, 2, 6, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -35,7 +35,7 @@ public abstract class SocksColorPinkItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.powder_snow.place"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.snow.place"));
 			}
 
 			@Override
@@ -45,7 +45,7 @@ public abstract class SocksColorPinkItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "socks_color_pink";
+				return "socks_color_white";
 			}
 
 			@Override
@@ -60,14 +60,14 @@ public abstract class SocksColorPinkItem extends ArmorItem {
 		}, slot, properties);
 	}
 
-	public static class Leggings extends SocksColorPinkItem {
+	public static class Leggings extends SocksColorWhiteItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(ThsModTabs.TAB_SOCKS));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(ThsModTabs.TAB_SOCKS));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ths:textures/models/armor/sock_pi_layer_2.png";
+			return "ths:textures/models/armor/sock_white_layer_2.png";
 		}
 	}
 }
