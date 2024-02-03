@@ -1,5 +1,5 @@
 
-package net.am7999.ths.item.socks.normal;
+package net.am7999.ths.item.socks.striped;
 
 import net.am7999.ths.init.ThsModTabs;
 import net.minecraftforge.registries.ForgeRegistries;

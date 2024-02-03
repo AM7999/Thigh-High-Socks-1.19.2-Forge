@@ -19,10 +19,15 @@ public class ThsModItems {
 	public static final RegistryObject<Item> SOCKS_COLOR_BROWN = REGISTRY.register("socks_color_brown", SocksColorBrownItem.Leggings::new);
 	public static final RegistryObject<Item> SOCKS_COLOR_CYAN = REGISTRY.register("socks_color_cyan", SocksColorCyanItem.Leggings::new);
 	public static final RegistryObject<Item> SOCKS_COLOR_GREEN = REGISTRY.register("socks_color_green", SocksColorGreenItem.Leggings::new);
-	public static final RegistryObject<Item> SOCKS_COLOR_GREEN_WHITE = REGISTRY.register("socks_color_green_white", SocksColorGreenOWhiteItem.Leggings::new);
+	public static final RegistryObject<Item> SOCKS_COLOR_GREY = REGISTRY.register("socks_color_grey", SocksColorGreyItem.Leggings::new);
+	public static final RegistryObject<Item> SOCKS_COLOR_LIGHT_BLUE = REGISTRY.register("socks_color_lightblue", SocksColorLightBlueItem.Leggings::new);
+	public static final RegistryObject<Item> SOCKS_COLOR_LIGHT_GREY = REGISTRY.register("socks_color_lightgrey", SocksColorLightGreyItem.Leggings::new);
 	public static final RegistryObject<Item> SOCKS_COLOR_LIME = REGISTRY.register("socks_color_lime", SocksColorLimeItem.Leggings::new);
 	public static final RegistryObject<Item> SOCKS_COLOR_MAGENTA = REGISTRY.register("socks_color_magenta", SocksColorMagentaItem.Leggings::new);
 	public static final RegistryObject<Item> SOCKS_COLOR_ORANGE = REGISTRY.register("socks_color_orange", SocksColorOrangeItem.Leggings::new);
 	public static final RegistryObject<Item> SOCKS_COLOR_PINK = REGISTRY.register("socks_color_pink", SocksColorPinkItem.Leggings::new);
+	public static final RegistryObject<Item> SOCKS_COLOR_PURPLE = REGISTRY.register("socks_color_purple", SocksColorPurpleItem.Leggings::new);
+	public static final RegistryObject<Item> SOCKS_COLOR_RED = REGISTRY.register("socks_color_red", SocksColorRedItem.Leggings::new);
 	public static final RegistryObject<Item> SOCKS_COLOR_WHITE = REGISTRY.register("socks_color_white", SocksColorWhiteItem.Leggings::new);
+	public static final RegistryObject<Item> SOCKS_COLOR_YELLOW = REGISTRY.register("socks_color_yellow", SocksColorYellowItem.Leggings::new);
 }
