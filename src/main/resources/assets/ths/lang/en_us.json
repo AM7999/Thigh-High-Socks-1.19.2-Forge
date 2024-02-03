@@ -1,10 +1,21 @@
 {
-  "item.ths.socks_color_pink": "Pink Thigh High Socks",
-  "advancements.firstadv.title": "What Have you Done?",
-  "advancements.firstadv.descr": "Become a femboy by crafting Thigh High Socks",
   "item.ths.cotton": "Cotton",
   "itemGroup.tabsocks": "Socks",
-  "ItemGroup.tabpride": "Pride Socks",
+  "itemGroup.tabpride": "Pride Socks",
+  "item.ths.socks_color_black": "Black Thigh High Socks",
+  "item.ths.socks_color_blue": "Blue Thigh High Socks",
+  "item.ths.socks_color_brown": "Brown Thigh High Socks",
+  "item.ths.socks_color_cyan": "Cyan Thigh High Socks",
+  "item.ths.socks_color_green": "Green Thigh High Socks",
+  "item.ths.socks_color_grey": "Grey Thigh High Socks",
+  "item.ths.socks_color_lightblue": "Light Blue Thigh High Socks",
+  "item.ths.socks_color_lightgrey": "Light Grey Thigh High Socks",
+  "item.ths.socks_color_lime": "Lime Thigh High Socks",
+  "item.ths.socks_color_magenta": "Magenta Thigh High Socks",
+  "item.ths.socks_color_orange": "Orange Thigh High Socks",
+  "item.ths.socks_color_pink": "Pink Thigh High Socks",
+  "item.ths.socks_color_purple": "Purple Thigh High Socks",
+  "item.ths.socks_color_red": "Red Thigh High Socks",
   "item.ths.socks_color_white": "White Thigh High Socks",
-  "item.ths.socks_color_lime": "Lime Thigh High Socks"
+  "item.ths.socks_color_yellow": "Yellow Thigh High Socks"
 }

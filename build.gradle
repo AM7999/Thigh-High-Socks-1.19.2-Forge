@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '0.1.0'
+version = '0.2.0'
 group = 'net.AM7999.ths'
 archivesBaseName = 'Thigh-High-Socks-Forge_1.19.2'
 
